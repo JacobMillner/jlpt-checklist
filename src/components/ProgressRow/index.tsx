@@ -4,15 +4,8 @@ import { InformationCircleIcon } from '@heroicons/react/solid';
 import Modal from 'components/Modal';
 
 const ProgressRow = (props: ProgressRowProps) => {
-  const {
-    id,
-    title,
-    checkedData,
-    link,
-    longDesc,
-    setDirty,
-    toggleCheckbox,
-  } = props;
+  const { id, title, checkedData, link, longDesc, setDirty, toggleCheckbox } =
+    props;
   const [checked, setChecked] = useState<boolean>();
   const [showModal, setShowModal] = useState<boolean>(false);
 

@@ -15,7 +15,9 @@ const TaskCategory = (props: TaskCategoryProps) => {
   const totalTasks = grammarData?.length;
 
   useEffect(() => {
-    const data: (Grammar | undefined)[] = tasks.map((task) => grammarHash.get(task));
+    const data: (Grammar | undefined)[] = tasks.map((task) =>
+      grammarHash.get(task)
+    );
     setGrammarData(data);
   }, [tasks]);
 

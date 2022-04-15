@@ -14,14 +14,10 @@ const Header = (props: HeaderProps) => {
       </div>
       <div className="mb-2 ml-4">
         Track your study progress in relation to the{' '}
-        <a
-          href="https://www.jlpt.jp/e/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://www.jlpt.jp/e/" target="_blank" rel="noreferrer">
           JLPT
-        </a>
-        {' '}-{' '}
+        </a>{' '}
+        -{' '}
         <a
           href="https://github.com/JacobMillner/jlpt-checklist"
           target="_blank"
