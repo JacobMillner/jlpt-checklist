@@ -20,12 +20,12 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: ./
+          NEXT_PUBLIC_BASE_PATH: /jlpt-checklist
 
       - name: Export
         run: npm run export
         env:
-          NEXT_PUBLIC_BASE_PATH: ./
+          NEXT_PUBLIC_BASE_PATH: /jlpt-checklist
 
       - run: touch ./out/.nojekyll
 
