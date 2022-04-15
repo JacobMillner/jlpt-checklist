@@ -6,6 +6,13 @@ export const n5: PageCategory[] = [
     subtitle: 'Begin your journey here!',
     tasks: [
       'no',
+      'da-desu',
+      'chyaikenai',
+      'dake',
+      'darou',
+      'de',
+      'demo',
+      'deshou',
     ],
   },
 ];

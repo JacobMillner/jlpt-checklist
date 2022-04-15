@@ -1,5 +1,5 @@
 import ProgressRow from 'components/ProgressRow';
-import taskHash from 'pageConfig/grammar';
+import grammarHash from 'pageConfig/grammar';
 import { Grammar } from 'pageConfig/grammar/types';
 import { useEffect, useState } from 'react';
 import { TaskCategoryProps } from './types';
@@ -15,7 +15,7 @@ const TaskCategory = (props: TaskCategoryProps) => {
   const totalTasks = grammarData?.length;
 
   useEffect(() => {
-    const data: (Grammar | undefined)[] = tasks.map((task) => taskHash.get(task));
+    const data: (Grammar | undefined)[] = tasks.map((task) => grammarHash.get(task));
     setGrammarData(data);
   }, [tasks]);
 
