@@ -92,7 +92,7 @@ const TaskCategory = (props: TaskCategoryProps) => {
                     <tr>
                       <th>Done</th>
                       <th>Grammar</th>
-                      <th>Link</th>
+                      <th>Helpful Links</th>
                     </tr>
                   </thead>
                   <tbody>
