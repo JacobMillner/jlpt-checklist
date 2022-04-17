@@ -51,7 +51,7 @@ const ProgressRow = (props: ProgressRowProps) => {
         </td>
         <td className="text-sm text-gray-900 font-light px-6 py-4 flex-wrap">
           <a href={link} target="_blank" rel="noreferrer">
-            {link}
+            jlptsensei
           </a>
         </td>
       </tr>

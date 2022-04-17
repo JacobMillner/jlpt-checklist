@@ -3,4 +3,5 @@ export interface Grammar {
   title: string;
   link?: string;
   longDesc?: string;
+  meaning?: string;
 }
