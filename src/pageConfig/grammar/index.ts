@@ -201,6 +201,206 @@ const grammarHash: Map<string, Grammar> = new Map([
       meaning: 'always; usually; habitually',
     },
   ],
+  [
+    'janai-dewa-nai',
+    {
+      id: 'janai-dewa-nai',
+      title: 'じゃない・ではない',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%98%e3%82%83%e3%81%aa%e3%81%84-janai-%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84-dewa-nai-meaning/',
+      longDesc: `<p>to not be (am not; is not; are not)</p><p>あなたは一人じゃない。</p><p>You are not alone.</p>`,
+      meaning: 'to not be (am not; is not; are not)',
+    },
+  ],
+  [
+    'ka-question',
+    {
+      id: 'ka-question',
+      title: 'か',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%8b-ka-question-particle-meaning/',
+      longDesc: `<p>question particle</p><p>何ですか？</p><p>What?</p>`,
+      meaning: 'question particle',
+    },
+  ],
+  [
+    'ka-ka',
+    {
+      id: 'ka-ka',
+      title: 'か～か',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%8b%ef%bd%9e%e3%81%8b-ka-ka-or-meaning/',
+      longDesc: `<p>or</p><p>明日は雨かどうか分からない。</p><p>I'm not sure if it will rain or not tomorrow.</p>`,
+      meaning: 'or',
+    },
+  ],
+  [
+    'kara',
+    {
+      id: 'kara',
+      title: 'から',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%8b%e3%82%89-kara-meaning/',
+      longDesc: `<p>because; since; from</p><p>天気がいいから、外に行きたい。</p><p>Since the weather is nice, I want to go outside.</p>`,
+      meaning: 'because; since; from',
+    },
+  ],
+  [
+    'kata',
+    {
+      id: 'kata',
+      title: '方 (かた）',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e6%96%b9-%e3%81%8b%e3%81%9f-kata-meaning/',
+      longDesc: `<p>the way of doing something; how to do</p><p>パソコンの使いかたがわかりません。</p><p>I don't know how to use a computer.</p>`,
+      meaning: 'the way of doing something; how to do',
+    },
+  ],
+  [
+    'kedo',
+    {
+      id: 'kedo',
+      title: 'けど',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%91%e3%81%a9-kedo-meaning/',
+      longDesc: `<p>but; however; although ~</p><p>仕事は辛いけど楽しい。</p><p>Work is tough, but fun.</p>`,
+      meaning: 'but; however; although ~',
+    },
+  ],
+  [
+    'keredo-mo',
+    {
+      id: 'keredo-mo',
+      title: 'けれども',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%91%e3%82%8c%e3%81%a9%e3%82%82-keredo-mo-meaning/',
+      longDesc: `<p>but; however; although ~</p><p>このカメラは高かったけれど、すぐ壊れてしまいました。</p><p>This camera was really expensive, but it broke right away.</p>`,
+      meaning: 'but; however; although ~',
+    },
+  ],
+  [
+    'mada',
+    {
+      id: 'mada',
+      title: 'まだ',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%a0-mada-meaning/',
+      longDesc: `<p>still; not yet</p><p>まだですか？</p><p>Is it ready yet? / are we there yet? / Still...?</p>`,
+      meaning: 'still; not yet',
+    },
+  ],
+  [
+    'mada-te-imasen',
+    {
+      id: 'mada-te-imasen',
+      title: 'まだ～ていません',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%a0%ef%bd%9e%e3%81%a6%e3%81%84%e3%81%be%e3%81%9b%e3%82%93-mada-te-imasen-meaning/',
+      longDesc: `<p>have not yet ~</p><p>バスはまだ来ていません。</p><p>The bus still hasn't come.</p>`,
+      meaning: 'have not yet ~',
+    },
+  ],
+  [
+    'made',
+    {
+      id: 'made',
+      title: 'まで',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%a7-made-meaning/',
+      longDesc: `<p>until; as far as; to (an extent); even ~</p><p>昨日までお休みでした。</p><p>I was on vacation until yesterday.</p>`,
+      meaning: 'until; as far as; to (an extent); even ~',
+    },
+  ],
+  [
+    'mae-ni',
+    {
+      id: 'mae-ni',
+      title: '前に',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e5%89%8d%e3%81%ab-%e3%81%be%e3%81%88%e3%81%ab-mae-ni-meaning/',
+      longDesc: `<p>before; in front of~</p><p>ドアを開ける前にノックぐらいしてください。</p><p>Before opening the door, please at least knock first.</p>`,
+      meaning: 'before; in front of~',
+    },
+  ],
+  [
+    'masen-ka',
+    {
+      id: 'masen-ka',
+      title: 'ませんか',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%9b%e3%82%93%e3%81%8b-masen-ka-meaning/',
+      longDesc: `<p>would you; do you want to; shall we ~</p><p>今日一緒に食べませんか？</p><p>Do you want to eat together today?</p>`,
+      meaning: 'would you; do you want to; shall we ~',
+    },
+  ],
+  [
+    'mashouka',
+    {
+      id: 'mashouka',
+      title: 'ましょうか',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%97%e3%82%87%e3%81%86%e3%81%8b-mashouka-meaning/',
+      longDesc: `<p>shall I ~; used to offer help to the listener</p><p>マドを開けましょうか。</p><p>Shall I open the window?</p>`,
+      meaning: 'shall I ~; used to offer help to the listener',
+    },
+  ],
+  [
+    'mo',
+    {
+      id: 'mo',
+      title: 'も',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%82%82-mo-particle-meaning/',
+      longDesc: `<p>too; also; as well</p><p>私もできる。</p><p>I can do that too.</p>`,
+      meaning: 'too; also; as well',
+    },
+  ],
+  [
+    'mou',
+    {
+      id: 'mou',
+      title: 'もう',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%82%82%e3%81%86-mou-meaning/',
+      longDesc: `<p>already; anymore; again; other</p><p>もう昼ご飯の時間だ。早く食べましょう！</p><p>It's lunch time already, let's hurry up and eat.</p>`,
+      meaning: 'already; anymore; again; other',
+    },
+  ],
+  [
+    'na-adjectives',
+    {
+      id: 'na-adjectives',
+      title: 'な-adjectives',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/japanese-%e3%81%aa-adjectives-%e3%81%aa%e5%bd%a2%e5%ae%b9%e8%a9%9e-meaning/',
+      longDesc: `<div class="grammar-notes my-3"><p>Learn Japanese grammar: <span class="jp color">な-adjectives</span> (na-adjectives), also known as な形容詞 (na keiyoushi).</p><p>There are two kinds of adjectives in Japanese, <a target="_blank" class="jp" href="https://jlptsensei.com/learn-japanese-grammar/japanese-%e3%81%84-adjectives-%e3%81%84%e5%bd%a2%e5%ae%b9%e8%a9%9e-meaning/">i-adjectives (い形容詞)</a> and <a target="_blank" class="jp" href="https://jlptsensei.com/learn-japanese-grammar/japanese-%e3%81%aa-adjectives-%e3%81%aa%e5%bd%a2%e5%ae%b9%e8%a9%9e-meaning/">na-adjectives (な形容詞)</a>.</p><p>The na-adjective is very simple to learn because it acts essentially like a noun and the form does not change much. Let’s look at some basic examples.</p><h2 id="examples" class="full-mobile bg-full bg-n5 my-3 text-center">How to conjugate na-adjectives</h2><h2 class="mt-5">な-adjective (present)</h2><p>Let’s start with a basic adjective, 元気 【げんき】 (genki) which means energetic.</p><div class="ex-block"><p class="ja">その子は<span class="color">げんきだ</span>。</p><p class="gram-romaji">sono ko wa <span class="color">genki da</span>.</p><p class="gram-honyaku">That child is energetic.</p></div><div class="print-break"></div><p>When a na-adjective is placed before a noun, a な&nbsp;is added at the end of the adjective.</p><div class="ex-block"><p class="ja">かれは<span class="color">げんきな</span>子だね。</p><p class="gram-romaji">kare wa <span class="color">genki na</span> ko da ne.</p><p class="gram-honyaku">He is an energetic child.</p></div><h2 class="mt-5">な-adjective (present negative)</h2><div class="ex-block"><p class="ja">その子は<span class="color">げんきじゃない</span>ね。</p><p class="gram-romaji">sono ko wa <span class="color">genki janai</span> ne.</p><p class="gram-honyaku">That child is not very energetic.</p></div><h2 class="mt-5">な-adjective (past)</h2><div class="ex-block"><p class="ja">その子はとても<span class="color">げんきだった</span>ね。</p><p class="gram-romaji">sono ko wa totemo <span class="color">genki datta</span> ne.</p><p class="gram-honyaku">That child was really energetic.</p></div><h2 class="mt-5">な-adjective (past negative)</h2><div class="ex-block"><p class="ja">かれはあまり<span class="color">げんきじゃなかった</span>ね。</p><p class="gram-romaji">kare wa amari <span class="color">genki janakatta</span> ne.</p><p class="gram-honyaku">He wasn’t very energetic.</p></div><h2 class="mt-5">Other common na-adjectives</h2><ul><li><a target="_blank" class="jp" href="">上手</a> 　(jouzu)&nbsp;skill, proficiency</li><li><a target="_blank" class="jp" href="https://jlptsensei.com/learn-japanese-vocabulary/%e4%b8%8b%e6%89%8bheta-meaning-unskillful/">下手</a> 　(heta)&nbsp;unskilled</li><li>好き　(suki) like</li><li>有名　(yuumei) famous</li><li>きれい　(kirei)&nbsp;beautiful, clean, tidy</li></ul><div class="d-print-none"><h2 class="mt-5">Other References</h2><ul><li>See full <a rel="noreferrer noopener" aria-label="N5 adjectives (opens in a new tab)" href="/jlpt-n5-adjectives-vocabulary-list/" target="_blank">N5 adjectives list</a>.</li><li>See full <a href="https://jlptsensei.com/jlpt-n5-na-adjectives-list/" target="_blank" rel="noreferrer noopener">N5 な-adjectives list</a>.</li></ul><p>Also see lesson on <a target="_blank" class="jp" href="https://jlptsensei.com/learn-japanese-grammar/japanese-%e3%81%84-adjectives-%e3%81%84%e5%bd%a2%e5%ae%b9%e8%a9%9e-meaning/">い-adjectives (い形容詞)</a>.</p></div><hr><div class="row"><div class="col-md-6"><div class="text-center mt-4 grammar-thumbnail-cont"><div itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject"><a target="_blank" href="https://jlptsensei.com/wp-content/uploads/2020/02/na-adjectives-な形容詞-jlpt-n5-grammar-meaning-文法例文-learn-japanese-flashcards-900x900.png"><img src="https://jlptsensei.com/wp-content/uploads/2020/02/na-adjectives-な形容詞-jlpt-n5-grammar-meaning-文法例文-learn-japanese-flashcards-200x200.png" alt="na-adjectives な形容詞 jlpt n5 grammar meaning 文法例文 learn japanese flashcards" class="img-responsive"></a><p class="mt-2 mb-0">Click the image to download the flashcard. <br>Download all <a href="/downloads/jlpt-n5-grammar-list-flashcards/" target="_blank">N5 grammar flashcards</a>.</p><meta itemprop="url" content="https://jlptsensei.com/wp-content/uploads/2020/02/na-adjectives-な形容詞-jlpt-n5-grammar-meaning-文法例文-learn-japanese-flashcards-900x900.png"></div></div></div><div class="col-md-6 text-center"><div class="mt-4 gl-ebook"> <a href="/downloads/jlpt-n5-grammar-master-e-book/" target="_blank"> <img src="/wp-content/uploads/2020/03/jlpt-n5-grammar-master-ebook-cover-200x200.png" alt="JLPT Grammar E-Book Download"> </a><p class="mt-2 mb-0">Download our complete <br><a href="/downloads/jlpt-n5-grammar-master-e-book/" target="_blank">JLPT N5 Grammar Master E-book</a>.</p></div></div></div><div class="wp-block-image gl-patron-block mt-4"><figure class="aligncenter size-full"><a href="/member-benefits" target="_blank" rel="noreferrer noopener"><img style="max-width: 250px;" src="https://jlptsensei.com/wp-content/uploads/2020/03/patron.png" alt="become a patron" class="wp-image-16627"></a></figure></div><p class="text-center mb-0">Access ALL extra downloads, ebooks, and study guides by supporting JLPT Sensei on <a href="https://www.patreon.com/jlptsensei" target="_blank" rel="noreferrer noopener">Patreon</a>.</p></div>`,
+      meaning: 'na-adjectives',
+    },
+  ],
+  [
+    'naa',
+    {
+      id: 'naa',
+      title: 'なあ',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%82-naa-sentence-ending-particle-meaning/',
+      longDesc: `<p>sentence ending particle; confirmation; admiration, etc</p><p>たくさんの人がいるなあ。</p><p>Wow, there's a lot of people here.</p>`,
+      meaning: 'sentence ending particle; confirmation; admiration, etc',
+    },
+  ],
+  [
+    'naide',
+    {
+      id: 'naide',
+      title: 'ないで',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%84%e3%81%a7-naide-meaning/',
+      longDesc: `<p>without doing~ ; To do [B] without doing [A]</p><p>コーヒーには、いつもさとうを入れないで飲みます。</p><p>I always drink coffee without putting any sugar in it.</p>`,
+      meaning: 'I always drink coffee without putting any sugar in it.',
+    },
+  ],
+  [
+    'naide-kudasai',
+    {
+      id: 'naide-kudasai',
+      title: 'ないでください',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%84%e3%81%a7%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84-naide-kudasai-meaning/',
+      longDesc: `<p>please don't do</p><p>コーヒーには、いつもさとうを入れないで飲みます。</p><p>I always drink coffee without putting any sugar in it.</p>`,
+      meaning: "please don't do",
+    },
+  ],
+  [
+    'naito-ikenai',
+    {
+      id: 'naito-ikenai',
+      title: 'ないといけない',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%84%e3%81%a8%e3%81%84%e3%81%91%e3%81%aa%e3%81%84-naito-ikenai-meaning/',
+      longDesc: `<p>must do; have an obligation to do</p><p>そろそろ寝ないといけない。</p><p>I have to sleep soon.</p>`,
+      meaning: 'must do; have an obligation to do',
+    },
+  ],
 ]);
 
 export default grammarHash;
