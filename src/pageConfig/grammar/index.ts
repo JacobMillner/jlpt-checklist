@@ -401,6 +401,226 @@ const grammarHash: Map<string, Grammar> = new Map([
       meaning: 'must do; have an obligation to do',
     },
   ],
+  [
+    'nakutemoii',
+    {
+      id: 'nakutemoii',
+      title: 'なくてもいい',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%8f%e3%81%a6%e3%82%82%e3%81%84%e3%81%84-naku-temo-ii-meaning/',
+      longDesc: `<p>don't have to do</p><p>明日は休みだから、学校に行かなくてもいい。</p><p>Tomorrow is a day off, so I don't need to go to school.</p>`,
+      meaning: "don't have to do",
+    },
+  ],
+  [
+    'nakucha',
+    {
+      id: 'nakucha',
+      title: 'なくちゃ',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%8f%e3%81%a1%e3%82%83-%e3%83%80%e3%83%a1-nakucha-dame-meaning/',
+      longDesc: `<p>must do; need to; gotta do</p><p>行かなくちゃ。</p><p>I gotta go.</p>`,
+      meaning: 'must do; need to; gotta do',
+    },
+  ],
+  [
+    'nakute-wa-ikenai',
+    {
+      id: 'nakute-wa-ikenai',
+      title: 'なくてはいけない',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%8f%e3%81%a6%e3%81%af%e3%81%84%e3%81%91%e3%81%aa%e3%81%84-nakute-wa-ikenai-meaning/',
+      longDesc: `<p>must do; need to do</p><p>本当にすぐ行かなくてはいけない。</p><p>I gotta go.</p>`,
+      meaning: 'must do; need to do',
+    },
+  ],
+  [
+    'nakute-wa-naranai',
+    {
+      id: 'nakute-wa-naranai',
+      title: 'なくてはならない',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%8f%e3%81%a6%e3%81%af%e3%81%aa%e3%82%89%e3%81%aa%e3%81%84-nakute-wa-naranai-meaning/',
+      longDesc: `<p>must do; need to do</p><p>急がなくてはならない。</p><p>I have to hurry.</p>`,
+      meaning: 'must do; need to do',
+    },
+  ],
+  [
+    'naru',
+    {
+      id: 'naru',
+      title: 'なる',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%82%8b-naru-meaning/',
+      longDesc: `<p>to become</p><p>大きくなっているね！</p><p>You're getting bigger!</p>`,
+      meaning: 'to become',
+    },
+  ],
+  [
+    'ndesu',
+    {
+      id: 'ndesu',
+      title: 'んです',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%82%93%e3%81%a7%e3%81%99-ndesu-%e3%82%93%e3%81%a0-nda-meaning/',
+      longDesc: `<p>to explain something; show emphasis</p><p>何を飲みたいんですか。</p><p>What would you like to drink?</p>`,
+      meaning: 'to explain something; show emphasis',
+    },
+  ],
+  [
+    'ne',
+    {
+      id: 'ne',
+      title: 'ね',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%ad-ne-particle-meaning/',
+      longDesc: `<p>isn't it? right? eh?</p><p>かわいいね。</p><p>It's cute, isn't it? / You're cute, eh.</p>`,
+      meaning: "isn't it? right? eh?",
+    },
+  ],
+  [
+    'ni',
+    {
+      id: 'ni',
+      title: 'に',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%ab-ni-destination-particle-meaning/',
+      longDesc: `<p>destination particle; in; at; on; to</p><p>来月大学に入る。</p><p>I will go to (start) university next month.</p>`,
+      meaning: 'destination particle; in; at; on; to',
+    },
+  ],
+  [
+    'ni-iku',
+    {
+      id: 'ni-iku',
+      title: 'にいく',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%97%e3%81%ab%e3%81%84%e3%81%8f-ni-iku-meaning/',
+      longDesc: `<p>go to do</p><p>友だちの家に遊びに行く。</p><p>I'm going to go over to my friends house to hang out.</p>`,
+      meaning: 'go to do',
+    },
+  ],
+  [
+    'ni-suru',
+    {
+      id: 'ni-suru',
+      title: 'にする',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%ab%e3%81%99%e3%82%8b-ni-suru-meaning/',
+      longDesc: `<p>to decide on</p><p>どれにする?</p><p>Which will you have? / Which do you want?</p>`,
+      meaning: 'to decide on',
+    },
+  ],
+  [
+    'ni-e',
+    {
+      id: 'ni-e',
+      title: 'に/へ',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%ab-%e3%81%b8-ni-e-directional-particle-meaning/',
+      longDesc: `<p>to (indicates direction / destination)</p><p>日本に戻りたい。</p><p>I want to go back to Japan.</p>`,
+      meaning: 'to (indicates direction / destination)',
+    },
+  ],
+  [
+    'no-desu',
+    {
+      id: 'no-desu',
+      title: 'に/へ',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e3%81%a7%e3%81%99-no-desu-%e3%81%ae%e3%81%a0-noda-meaning/',
+      longDesc: `<p>to explain something; show emphasis</p><p>どこへ行きたいのですか。</p><p>Where would you like to go?</p>`,
+      meaning: 'to explain something; show emphasis',
+    },
+  ],
+  [
+    'no-ga-heta-desu',
+    {
+      id: 'no-ga-heta-desu',
+      title: 'のが下手',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e3%81%8c%e4%b8%8b%e6%89%8b-%e3%81%ae%e3%81%8c%e3%81%b8%e3%81%9f-no-ga-heta-meaning/',
+      longDesc: `<p>to be bad at doing something</p><p>彼はおはしを使うのが下手だ。</p><p>He is bad at using chopsticks.</p>`,
+      meaning: 'to be bad at doing something',
+    },
+  ],
+  [
+    'no-ga-jouzu',
+    {
+      id: 'no-ga-jouzu',
+      title: 'のが上手',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e3%81%8c%e4%b8%8a%e6%89%8b-no-ga-jouzu-%e3%81%ae%e3%81%8c%e3%81%98%e3%82%87%e3%81%86%e3%81%9a%e3%81%a7%e3%81%99-meaning/',
+      longDesc: `<p>to be good at</p><p>あなたは教えるのが上手です。</p><p>You're good at teaching.</p>`,
+      meaning: 'to be good at',
+    },
+  ],
+  [
+    'no-ga-suki',
+    {
+      id: 'no-ga-suki',
+      title: 'のが好き',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e3%81%8c%e5%a5%bd%e3%81%8d-no-ga-suki-%e3%81%ae%e3%81%8c%e3%81%99%e3%81%8d%e3%81%a7%e3%81%99-meaning/',
+      longDesc: `<p>to like doing something</p><p>私は寝るのが好きです。</p><p>I like to sleep / I like sleeping</p>`,
+      meaning: 'to like doing something',
+    },
+  ],
+  [
+    'no-naka-de-a-ga-ichiban',
+    {
+      id: 'no-naka-de-a-ga-ichiban',
+      title: 'の中で[A]が一番',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e4%b8%ad%e3%81%a7%e3%81%8c%e4%b8%80%e7%95%aa-%e3%81%ae%e3%81%aa%e3%81%8b%e3%81%a7%e3%81%8c%e3%81%84%e3%81%a1%e3%81%b0%e3%82%93-no-naka-de-ga-ichiban-meaning/',
+      longDesc: `<p>out of this group, [A] is best</p><p>家族のなかで父がいちばん背が高いです。</p><p>In my family, my father is the tallest.</p>`,
+      meaning: 'out of this group, [A] is best',
+    },
+  ],
+  [
+    'no-de',
+    {
+      id: 'no-de',
+      title: 'ので',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e3%81%a7-node-meaning/',
+      longDesc: `<p>because of; given that; since</p><p>ちょっと寒いので、窓を閉めてもいいですか。</p><p>It's a bit cold, so is it OK to close the window?</p>`,
+      meaning: 'because of; given that; since',
+    },
+  ],
+  [
+    'o-go',
+    {
+      id: 'o-go',
+      title: 'お / ご ',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e5%be%a1-%e3%81%8a-%e3%81%94-o-go-polite-marker-particle-meaning/',
+      longDesc: `<p>polite marker; honorific prefix particle</p><p>金曜日はおひまですか？</p><p>Are you free on Friday?</p>`,
+      meaning: 'polite marker; honorific prefix particle',
+    },
+  ],
+  [
+    'o-wo',
+    {
+      id: 'o-wo',
+      title: 'を',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%82%92-wo-object-marker-meaning/',
+      longDesc: `<p>object marker particle</p><p>日本語をべんきょうしています。</p><p>I am studying Japanese.</p>`,
+      meaning: 'object marker particle',
+    },
+  ],
+  [
+    'o-kudasai',
+    {
+      id: 'o-kudasai',
+      title: 'をください',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%82%92%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84-o-kudasai-meaning/',
+      longDesc: `<p>please give me ~</p><p>すみません、お水をください。</p><p>Excuse me, could you please give me some water?</p>`,
+      meaning: 'please give me ~',
+    },
+  ],
+  [
+    'shikashi',
+    {
+      id: 'shikashi',
+      title: 'しかし',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%97%e3%81%8b%e3%81%97-shikashi-meaning/',
+      longDesc: `<p>but; however ~</p><p>しかしなぜ？</p><p>But why? (expressing disagreement)</p>`,
+      meaning: 'but; however ~',
+    },
+  ],
+  [
+    'sorekara',
+    {
+      id: 'sorekara',
+      title: 'それから',
+      link: 'https://jlptsensei.com/learn-japanese-grammar/%e3%81%9d%e3%82%8c%e3%81%8b%e3%82%89-sore-kara-meaning/',
+      longDesc: `<p>and; and then; after that; since then</p><p>それから、私は昼ごはんを食べました。</p><p>And then, I ate lunch.</p>`,
+      meaning: 'and; and then; after that; since then',
+    },
+  ],
 ]);
 
 export default grammarHash;
